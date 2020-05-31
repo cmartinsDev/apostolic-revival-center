@@ -1,0 +1,11 @@
+// Styling for the services section
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+  @include title-font;
+  color: $black;
+}
+.services-img {
+  width: 126px;
+  height: 128px;
+}
