@@ -1,1 +1,1 @@
-web: node index.html
+web: gulp index.html
