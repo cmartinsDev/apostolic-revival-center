@@ -1,1 +1,1 @@
-web: gulp index.html
+web: node gulpfile.js
