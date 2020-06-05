@@ -1,0 +1,19 @@
+// Core variables and fonts
+@import "./variables.scss";
+@import "./variables/typography.scss";
+
+// Global CSS
+@import "./global.scss";
+
+// Components
+@import "./components/buttons.scss";
+@import "./components/navbar.scss";
+
+// Sections
+@import "./sections/masthead.scss";
+@import "./sections/services.scss";
+@import "./sections/portfolio.scss";
+@import "./sections/timeline.scss";
+@import "./sections/team.scss";
+@import "./sections/contact.scss";
+@import "./sections/footer.scss";

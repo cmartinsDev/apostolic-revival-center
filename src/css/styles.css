@@ -1,7 +1,6 @@
 /*!
- * Start Bootstrap - ARC - Apostolic Revival Center v1.0.0 ()
- * Copyright 2013-2020 Carlos Martins
- * Licensed under MIT (https://github.com/BlackrockDigital/apostolic-revival-center/blob/master/LICENSE)
+ * Carlos Martins - ARC - Apostolic Revival Center v1.0.0 ()
+ * Copyright 2020-2020 Carlos Martins
  */
 
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
@@ -186,7 +185,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: #E5DD0E;
-  background-image: url("../../img/arc-background.png");
+  background-image: url("../assets/img/arc-background.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -606,7 +605,7 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }

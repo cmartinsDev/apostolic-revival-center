@@ -3,9 +3,17 @@
     "name": "apostolic-revival-center",
     "version": "1.0.0",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "watch": "node_modules/.bin/gulp watch",
+        "start": "npm run build && node scripts/start.js",
+        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
+        "build:assets": "node scripts/build-assets.js",
+        "build:pug": "node scripts/build-pug.js",
+        "build:scripts": "node scripts/build-scripts.js",
+        "build:scss": "node scripts/build-scss.js",
+        "clean": "node scripts/clean.js",
+        "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "Apostolic revival center website single page.",
+    "description": "Apostolic Revival Center",
     "keywords": [
         "css",
         "sass",
@@ -13,30 +21,22 @@
         "responsive",
         "theme",
         "template"
-    ],   
+    ],
     "license": "MIT",
-    "author": "Carlos Martins",    
+    "author": "Carlos Martins",
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
         "bootstrap": "4.3.1",
         "jquery": "3.4.1",
-        "jquery.easing": "^1.4.1",
-        "browser-sync": "2.26.7",
-        "del": "5.1.0",
-        "gulp": "4.0.2",
-        "gulp-autoprefixer": "7.0.0",
-        "gulp-clean-css": "4.2.0",
-        "gulp-header": "2.0.9",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.2",
-        "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
+        "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
+        "autoprefixer": "9.8.0",
         "browser-sync": "2.26.7",
+        "chokidar": "3.4.0",
+        "concurrently": "5.2.0",
         "del": "5.1.0",
-        "gulp": "4.0.2",
+        "gulp": "^4.0.2",
         "gulp-autoprefixer": "7.0.0",
         "gulp-clean-css": "4.2.0",
         "gulp-header": "2.0.9",
@@ -44,6 +44,11 @@
         "gulp-rename": "1.4.0",
         "gulp-sass": "4.0.2",
         "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
+        "merge-stream": "2.0.0",
+        "postcss": "7.0.30",
+        "prettier": "2.0.5",
+        "pug": "2.0.4",
+        "sass": "1.26.5",
+        "shelljs": "0.8.4"
     }
 }
