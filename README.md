@@ -1,10 +1,9 @@
 # [Apostolic Revival Center](https://apostolicrevivalcenter.000webhostapp.com/)
 
-[Apostolic Revival Center](https://apostolicrevivalcenter.000webhostapp.com/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+[Apostolic Revival Center](https://apostolicrevivalcenter.000webhostapp.com/) is a one page ministry portfolio for [Bootstrap](http://getbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
 
 ## Preview
-
-[![Apostolic Revival Center](https://github.com/cmartinsDev/apostolic-revival-center/screenshots/apostolic-revival-center.png)](https://apostolicrevivalcenter.000webhostapp.com/)
+![Apostolic Revival Center](/screenshots/apostolic-revival-center.png)
 
 **[View Live Preview](https://apostolicrevivalcenter.000webhostapp.com/)**
 
